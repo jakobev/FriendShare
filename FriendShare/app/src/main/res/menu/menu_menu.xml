@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu"
+        android:checkable="false"
+        android:enabled="true"
+        android:icon="@mipmap/menu"
+        android:title="@string/Menu"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu1"
+        android:checkable="false"
+        android:enabled="true"
+        android:icon="@mipmap/menu"
+        android:title="@string/Settings"
+        android:visible="true"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/menu2"
+        android:checkable="false"
+        android:enabled="true"
+        android:icon="@mipmap/menu"
+        android:title="@string/FAQ"
+        android:visible="true"
+        app:showAsAction="never" />
+
+</menu>
